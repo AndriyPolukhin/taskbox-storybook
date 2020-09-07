@@ -1,321 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots InboxScreen Default 1`] = `
-<div
-  className="page lists-show"
->
-  <nav>
-    <h1
-      className="title-page"
-    >
-      <span
-        className="title-wrapper"
-      >
-        Taskbox
-      </span>
-    </h1>
-  </nav>
-  <div
-    className="list-items"
-  >
-    <div
-      className="list-item TASK_INBOX"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
-      <div
-        className="title"
-      >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          style={
-            Object {
-              "textOverflow": "ellipsis",
-            }
-          }
-          type="text"
-          value="Task 1"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
-        >
-          <span
-            className="icon-star"
-          />
-        </a>
-      </div>
-    </div>
-    <div
-      className="list-item TASK_INBOX"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
-      <div
-        className="title"
-      >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          style={
-            Object {
-              "textOverflow": "ellipsis",
-            }
-          }
-          type="text"
-          value="Task 2"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
-        >
-          <span
-            className="icon-star"
-          />
-        </a>
-      </div>
-    </div>
-    <div
-      className="list-item TASK_INBOX"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
-      <div
-        className="title"
-      >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          style={
-            Object {
-              "textOverflow": "ellipsis",
-            }
-          }
-          type="text"
-          value="Test Task"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
-        >
-          <span
-            className="icon-star"
-          />
-        </a>
-      </div>
-    </div>
-    <div
-      className="list-item TASK_INBOX"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
-      <div
-        className="title"
-      >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          style={
-            Object {
-              "textOverflow": "ellipsis",
-            }
-          }
-          type="text"
-          value="Test Task"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
-        >
-          <span
-            className="icon-star"
-          />
-        </a>
-      </div>
-    </div>
-    <div
-      className="list-item TASK_INBOX"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
-      <div
-        className="title"
-      >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          style={
-            Object {
-              "textOverflow": "ellipsis",
-            }
-          }
-          type="text"
-          value="Test Task"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
-        >
-          <span
-            className="icon-star"
-          />
-        </a>
-      </div>
-    </div>
-    <div
-      className="list-item TASK_INBOX"
-    >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
-      <div
-        className="title"
-      >
-        <input
-          placeholder="Input title"
-          readOnly={true}
-          style={
-            Object {
-              "textOverflow": "ellipsis",
-            }
-          }
-          type="text"
-          value="Test Task"
-        />
-      </div>
-      <div
-        className="actions"
-        onClick={[Function]}
-      >
-        <a
-          onClick={[Function]}
-        >
-          <span
-            className="icon-star"
-          />
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots InboxScreen Error 1`] = `
-<div
-  className="page lists-show"
->
-  <div
-    className="wrapper-message"
-  >
-    <span
-      className="icon-face-sad"
-    />
-    <div
-      className="title-message"
-    >
-      Oh no!
-    </div>
-    <div
-      className="subtitle-message"
-    >
-      Something went wrong
-    </div>
-  </div>
-</div>
-`;
-
 exports[`Storyshots Task Archived 1`] = `
 <div
   className="list-item TASK_ARCHIVED"
@@ -342,7 +26,11 @@ exports[`Storyshots Task Archived 1`] = `
       readOnly={true}
       style={
         Object {
+<<<<<<< HEAD
           "textOverflow": "ellipsis",
+=======
+          "background": "red",
+>>>>>>> 3edfa14db70d128704e0bccec1c617b30a382098
         }
       }
       type="text"
@@ -382,7 +70,11 @@ exports[`Storyshots Task Default 1`] = `
       readOnly={true}
       style={
         Object {
+<<<<<<< HEAD
           "textOverflow": "ellipsis",
+=======
+          "background": "red",
+>>>>>>> 3edfa14db70d128704e0bccec1c617b30a382098
         }
       }
       type="text"
@@ -478,7 +170,11 @@ exports[`Storyshots Task Pinned 1`] = `
       readOnly={true}
       style={
         Object {
+<<<<<<< HEAD
           "textOverflow": "ellipsis",
+=======
+          "background": "red",
+>>>>>>> 3edfa14db70d128704e0bccec1c617b30a382098
         }
       }
       type="text"
@@ -536,7 +232,11 @@ exports[`Storyshots TaskList Default 1`] = `
           readOnly={true}
           style={
             Object {
+<<<<<<< HEAD
               "textOverflow": "ellipsis",
+=======
+              "background": "red",
+>>>>>>> 3edfa14db70d128704e0bccec1c617b30a382098
             }
           }
           type="text"
@@ -581,7 +281,11 @@ exports[`Storyshots TaskList Default 1`] = `
           readOnly={true}
           style={
             Object {
+<<<<<<< HEAD
               "textOverflow": "ellipsis",
+=======
+              "background": "red",
+>>>>>>> 3edfa14db70d128704e0bccec1c617b30a382098
             }
           }
           type="text"
@@ -626,7 +330,11 @@ exports[`Storyshots TaskList Default 1`] = `
           readOnly={true}
           style={
             Object {
+<<<<<<< HEAD
               "textOverflow": "ellipsis",
+=======
+              "background": "red",
+>>>>>>> 3edfa14db70d128704e0bccec1c617b30a382098
             }
           }
           type="text"
@@ -671,7 +379,11 @@ exports[`Storyshots TaskList Default 1`] = `
           readOnly={true}
           style={
             Object {
+<<<<<<< HEAD
               "textOverflow": "ellipsis",
+=======
+              "background": "red",
+>>>>>>> 3edfa14db70d128704e0bccec1c617b30a382098
             }
           }
           type="text"
@@ -716,7 +428,11 @@ exports[`Storyshots TaskList Default 1`] = `
           readOnly={true}
           style={
             Object {
+<<<<<<< HEAD
               "textOverflow": "ellipsis",
+=======
+              "background": "red",
+>>>>>>> 3edfa14db70d128704e0bccec1c617b30a382098
             }
           }
           type="text"
@@ -761,7 +477,11 @@ exports[`Storyshots TaskList Default 1`] = `
           readOnly={true}
           style={
             Object {
+<<<<<<< HEAD
               "textOverflow": "ellipsis",
+=======
+              "background": "red",
+>>>>>>> 3edfa14db70d128704e0bccec1c617b30a382098
             }
           }
           type="text"
@@ -1000,7 +720,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
           readOnly={true}
           style={
             Object {
+<<<<<<< HEAD
               "textOverflow": "ellipsis",
+=======
+              "background": "red",
+>>>>>>> 3edfa14db70d128704e0bccec1c617b30a382098
             }
           }
           type="text"
@@ -1045,7 +769,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
           readOnly={true}
           style={
             Object {
+<<<<<<< HEAD
               "textOverflow": "ellipsis",
+=======
+              "background": "red",
+>>>>>>> 3edfa14db70d128704e0bccec1c617b30a382098
             }
           }
           type="text"
@@ -1090,7 +818,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
           readOnly={true}
           style={
             Object {
+<<<<<<< HEAD
               "textOverflow": "ellipsis",
+=======
+              "background": "red",
+>>>>>>> 3edfa14db70d128704e0bccec1c617b30a382098
             }
           }
           type="text"
@@ -1135,7 +867,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
           readOnly={true}
           style={
             Object {
+<<<<<<< HEAD
               "textOverflow": "ellipsis",
+=======
+              "background": "red",
+>>>>>>> 3edfa14db70d128704e0bccec1c617b30a382098
             }
           }
           type="text"
@@ -1180,7 +916,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
           readOnly={true}
           style={
             Object {
+<<<<<<< HEAD
               "textOverflow": "ellipsis",
+=======
+              "background": "red",
+>>>>>>> 3edfa14db70d128704e0bccec1c617b30a382098
             }
           }
           type="text"
@@ -1225,7 +965,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
           readOnly={true}
           style={
             Object {
+<<<<<<< HEAD
               "textOverflow": "ellipsis",
+=======
+              "background": "red",
+>>>>>>> 3edfa14db70d128704e0bccec1c617b30a382098
             }
           }
           type="text"

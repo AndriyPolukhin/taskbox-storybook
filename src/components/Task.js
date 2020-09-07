@@ -18,7 +18,11 @@ const Task = ({ task: { id, title, state }, onArchiveTask, onPinTask }) => (
         value={title}
         readOnly={true}
         placeholder="Input title"
+<<<<<<< HEAD
         style={{ textOverflow: 'ellipsis' }}
+=======
+        style={{ background: 'red' }}
+>>>>>>> 3edfa14db70d128704e0bccec1c617b30a382098
       />
     </div>
 
