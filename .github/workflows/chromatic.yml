@@ -17,5 +17,4 @@ jobs:
         # options required to the GitHUb chromatic action
         with:
           # out project token, to see how to obtain it
-          projectToken: 7gd48sqfrlh
           token: ${{ secrets.TASKBOX_STORYBOOK }}
